@@ -1,49 +1,45 @@
-# EventoEMS - Event Management System
+Event Management Platform - Internship Assessment
 
-Introducing our Event Management System, a solution developed as part of our final year group project, designed to streamline campus event planning, registration, and ticket booking. I played a key role as the architect, creating the user interface where I incorporated modern design principles and prioritized user experience. We are developing the system using the MERN stack (MongoDB, Express.js, React.js, Node.js), and we are utilizing the agile Scrum methodology for efficient development.
+Welcome to the Event Management Platform internship assessment! This project serves as an assessment and challenge for interns to demonstrate their skills in web development. In this project, you will be tasked with developing a web application for managing events organized by our company. This platform will enable users to browse upcoming events, book tickets, and manage their bookings, while administrators will have access to an admin dashboard for event management.
 
-**Skills:** *Figma · Ui/ux · React.js · MongoDB · Node.js · Express.js · Requirements Analysis · User Interface Design*
+Project Features
 
-**Features**
-* Schedule a Event.
-* View upcoming events.
-* View the event calendar.
-* Getting approval for the events.
-* Ticket Booking for the event.
-* QR Code generation for receiving tickets.
+Event Listing and Details:
 
-**Technologies Used**
-* ReactJs
-* NodeJs
-* ExpressJs
-* MongoDB
-* NPM (Node Package Manager)
-* JWT webtoken
-* QR code
+Display a list of upcoming events organized by the company.
+Show essential details for each event, including title, date, location, and ticket availability.
 
-**_Getting Started_**
+Booking Tickets:
 
-**Prerequisites**
-* Node.js and npm installed
-* MongoDB Database
+Allow users to select the number of tickets they wish to book for an event.
+Implement a simple booking process.
 
-**Instalaltion**
-1. Clone the repository to your local machine.
-2. Navigate to the project directory. use two terminal <br>
-    **Cd Client** - For Frontend <br>
-    **Cd api** - For Backend <br>
-3. Install server dependenciesfor both frontend and backend.
-4. Create a .env file in the root directory with the following content, and replace placeholders with your own values. <br>
-     MONGODB_URI=mongodb://localhost/your-database-name
-5. Start the server.<br>
-     **ems/api:** nodemon start<br>
-     if the command is not working use **PowerShell -ExecutionPolicy Bypass nodemon** this command.
-7. Start the Client:<br>
-      **ems/client:** npm run dev
+User Dashboard:
 
-**The application should now be running. You can access it at http://localhost:5173**<br>
-**The Server is running on http://localhost:4000**
+Provide users with a dashboard where they can view their booked events.
+Allow users to cancel their bookings if needed.
 
-<h1>Thank You</h1>
+Admin Dashboard:
 
-![portfolio_1](https://github.com/Bilal025/EventoEMS/assets/95700674/001ddf1c-72b3-40bb-8e3e-975ae00ccee5)
+Create a separate admin dashboard accessible only to company administrators.
+Allow admins to manage events, including creating new events, editing event details, and deleting events if necessary.
+Provide functionality for admins to view all bookings and manage them (e.g., cancel bookings, view attendee details).
+
+Basic Styling and UI/UX:
+
+Apply a simple and clean design using Tailwind CSS to ensure a consistent look and feel across the platform.
+Focus on usability and intuitive navigation to enhance the user experience.
+
+Error Handling and Validation:
+
+Implement basic error handling and validation for user inputs (e.g., form submissions).
+Provide informative error messages to guide users in case of invalid actions.
+Tech Stack
+You are required to use either the PERN (PostgreSQL, Express.js, React.js, Node.js) or MERN (MongoDB, Express.js, React.js, Node.js) stack for this project.
+
+Project Requirements
+
+. Implement the specified features using the chosen stack.
+. Ensure the project meets the provided requirements and functionalities.
+. Aim for clean, readable, and well-organized code.
+. Provide documentation as needed for setup and usage.
