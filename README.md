@@ -40,6 +40,9 @@ You are required to use either the PERN (PostgreSQL, Express.js, React.js, Node.
 Project Requirements
 
 . Implement the specified features using the chosen stack.
+
 . Ensure the project meets the provided requirements and functionalities.
+
 . Aim for clean, readable, and well-organized code.
+
 . Provide documentation as needed for setup and usage.
